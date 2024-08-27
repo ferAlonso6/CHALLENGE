@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<header>
+    <img class="logo_1" src="Logo.png" alt="logoDeAlura">
+</header>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h2>Ingrese el texto aquí</h2>
+            <textarea id="input-text" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="buttons">
+                <img src="bi_exclamation-circle-fill.png" alt="exclamacion">
+                <p class="note">Solo letras minúsculas y sin acentos</p>
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="output-section">
+            <img src="Muñeco.png" alt="muñeco pensando" id="output-image">
+            <div id="output-text-container">
+                <textarea id="output-text" readonly placeholder="Ningún mensaje fue encontrado."></textarea> 
+                <button id="copy-btn">Copiar al Portapapeles</button>
+            </div>    
+        </div>    
+    </div>
+    <script src="dinamicas.js"></script>
+</body>
+<footer class="footer">
+        <p>Desarrollado por Fernando García</p>
+        <br>
+        <a href="https://www.instagram.com/fernandogarcia_06/">
+            <img class="red_social" src="sapeee.png" alt="logo de ig">
+        </a>
+</footer>
+</html>
